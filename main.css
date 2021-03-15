@@ -1,0 +1,213 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #39CCCC;
+    line-height: 2em;
+    font-size: 20px;
+    padding-left: 6px;
+  }
+  .name{
+    font-size: 25px;
+
+  }
+  #contact{
+    font-size: 12px;
+    position: fixed;
+  }
+  .background1{
+    padding: 6px;
+    font-size: 17px;
+  }
+  .toc{
+    font-size: 20px;
+  }
+  #click{
+      background-color: black;
+      color: white;
+      width: 100%;
+      text-align: center;
+      padding: 6px;
+  }
+  #click-link{
+      color: #39CCCC;
+  }
+      .hl{
+          color: #39CCCC;
+          text-decoration: none;
+          font-family: raleway;
+      }
+      a{
+          line-height: 2em;
+      }
+      /* .links a:visited{
+          color: blue;
+          text-decoration: none;
+      }
+      .links a:link{
+          color: blue;
+          text-decoration: none;
+      } */
+      #whitespace1{
+          padding: 20px;
+      }
+      #DoH{
+          width: 400px;
+      }
+      .warning{
+          background-color:  #ff0000 ;
+          padding: 6px;
+          width: 50%;
+          color: white;
+      }
+      #suggestions{
+          background-color: black;
+          color: white;
+          padding: 4px;
+          text-align: center;
+          font-size: 14px;
+      }
+      .headder{
+          background-color: black;
+          width: 100%;
+          height: 5%;
+          padding: 4px;
+          bottom: 100%;
+          margin: auto;
+          text-align: center;
+          /* position: relative; */
+          text-decoration: none;
+          color: aqua;
+          z-index: 10;
+          animation-name: head;
+          animation-duration: 3s;
+          animation-fill-mode: forwards;
+          position: fixed;
+          font-size: 15px;
+          opacity: 50%;
+      }
+      .headder:hover{
+          opacity: 100%;
+          transition-property: opacity;
+          transition-duration: 0.5s;
+      }
+      @keyframes head{
+          0% {top: -100px}
+          100% {top: 2%}
+      }
+      .links_head{
+          text-decoration: none;
+          color: white;
+          border: 2px solid;
+          border-color: white;
+          border-spacing: 10px;
+          padding: 5px;
+      }
+      .links_head:hover{
+          background-color: white;
+          color: black;
+          transition-property: background-color, color;
+          transition-duration: 0.35s;
+      }
+      #headder{
+      position: fixed;
+      background-color: black;
+      padding-left: 10px;
+      padding-right: 10px;
+      color: white;
+      z-index: 10;
+      top: 80%;
+      left: 80%;
+   }
+      #headder a:hover{
+          color: white;
+      }
+      #title{
+          position: relative;
+          top: 35px;
+      }
+      #subtitle{
+          padding-top: 13px;
+          font-weight: initial;
+      }
+      #suggestion_link{
+          border: solid;
+          border-color: white;
+          color: white;
+          text-decoration: none;
+          padding: 5px;
+      }
+      #edge_logo{
+          width: 70px;
+      }
+      .logo{
+          /* float: right; */
+          width: 50px;
+          padding: 6px;
+      }
+      #zoom_logo{
+          width: 60px;
+      }
+      #yahoo_logo{
+          width: 90px;
+      }
+      #suggestion_link:hover{
+          background-color: white;
+          color: black;
+          transition-property: background-color, color;
+          transition-duration: 0.35s;
+      }
+      .links_border{
+          border: solid;
+          border-color: white;
+          color: white;
+          background-color: black;
+          padding: 2.6px;
+          text-decoration: none;
+      }
+      .links_border:hover{
+          color: black;
+          background-color: white;
+          transition-property: color, background-color;
+          transition-duration: 0.35s;
+      }
+      #iconcopy{
+          font-size: 15px;
+          text-align: center;
+          margin: auto;
+          text-decoration: none;
+          border: solid;
+          border-color: white;
+          padding: 6px;
+          color: white;
+          background-color: black;
+      }
+      #iconcopy:hover{
+          background-color: white;
+          color: black;
+          transition-property: background-color, color;
+          transition-duration: 0.35s;
+      }
+      .button{
+          color: white;
+          background-color: black;
+          text-decoration: none;
+          border: solid;
+          border-color: white;
+          padding: 6px;
+      }
+      .button:hover{
+          color: black;
+          background-color: white;
+          transition-property: color, background-color;
+          transition-duration: 0.35s;
+      }
+      #GA{
+          width: 200px;
+      }
+      .video{ 
+          width: 500px;
+      }
+      .foot{
+          background-color: black;
+          padding: 6px;
+          text-align: center;
+      }
